@@ -15,8 +15,6 @@ main {
     gap: 1rem;
 }
 
-
-
 header input  {
     border:inset;
 }
@@ -44,6 +42,7 @@ main {
 .atv {
     display: flex;
     text-align: center;
+    gap: 1rem;
     justify-content: space-between;
     align-items: center;
     max-width: 25rem;
