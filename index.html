@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
     <title>To Do List</title>
 </head>
-<body>
+<body onload="init()">
     <header>
         <h1> TO DO LIST </h1>
 
@@ -19,43 +20,19 @@
     </header>
 
     <main>
-        <div class="atv">
+     <div id="atvs">
+        <div id="atv">
             <input type="checkbox">
             <p>Atividade 1</p>
             <div class="botoes">
                 <button>
                     <img src="./imagens/lapis.png" alt="lapis">
                 </button>
-                <button>
+                <button onclick="editarTarefa()">
                     <img src="./imagens/lixo.png" alt="lixo">
                 </button>
             </div>
         </div>
-    
-        <div class="atv">
-            <input type="checkbox">
-            <p>Atividade 2</p>
-            <div class="botoes">
-                <button>
-                    <img src="./imagens/lapis.png" alt="lapis">
-                </button>
-                <button>
-                    <img src="./imagens/lixo.png" alt="lixo">
-                </button>
-            </div>
-        </div>
-        <div class="atv">
-            <input type="checkbox">
-            <p>Atividade 3</p>
-            <div class="botoes">
-                <button>
-                    <img src="./imagens/lapis.png" alt="lapis">
-                </button>
-                <button>
-                    <img src="./imagens/lixo.png" alt="lixo">
-                </button>
-            </div>
-        </div>
-    </div>
+     </div> 
 </body>
 </html>
